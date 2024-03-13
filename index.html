@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Trips</title>
+   </head>
+   <body>
+      <center>
+         <h1>New Trip Data</h1>
+         <form action="tripData.php" method="post">
+            <fieldset>
+                <legend>Trip Data:</legend>
+               <label for="tripNo">Trip No:</label><br>
+               <input type="text" name="tripNo" id="tripNo"><br>       
+               <label for="busDepartureTime">Bus Departure Time:</label><br>
+               <input type="datetime-local" name="busDepartureTime" id="busDepartureTime"><br>
+               <label for="arrivalTimeToDestination">Arrival Time To Destination:</label><br>
+               <input type="datetime-local" name="arrivalTimeToDestination" id="arrivalTimeToDestination"><br>
+               <label for="tripDestination">Trip Destination:</label><br>
+               <input type="text" name="tripDestination" id="tripDestination"><br>
+               <label for="StudentNo">Student No:</label><br>
+               <input type="number" name="StudentNo" id="StudentNo"><br>
+            </fieldset>
+            <fieldset>
+                <legend>Driver Data:</legend>
+                <label for="driverID">Driver ID:</label><br>
+                <input type="text" id="driverID" name="driverID"><br>
+                <label for="driverName">Driver Name:</label><br>
+                <input type="text" id="driverName" name="driverName"><br>
+                <label for="phoneNo">Phone No:</label><br>
+                <input type="text" id="phoneNo" name="phoneNo"><br>
+                <label for="driverLicense">Driver License:</label><br>
+                <input type="text" id="driverLicense" name="driverLicense"><br>
+              </fieldset>
+              <br><input type="submit" value="Submit">
+         </form>
+      </center>
+   </body>
+</html>
